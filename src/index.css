@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
+:root {
+    --app-black: rgba(26, 26, 26, 1);
+    --app-white: rgba(255, 255, 255, 1);
+    --sample-pink: rgba(233, 64, 87, 1);
+    --sample-orange: rgba(242, 113, 33, 1);
+    --sample-gradient: linear-gradient( 25deg, var(--sample-pink), var(--sample-orange));
+}
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--app-white);
+    font-family: Inter, sans-serif;
+    color: var(--app-black);
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.center {
+    align-items: center;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0.5rem 0;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
